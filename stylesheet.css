@@ -1,0 +1,56 @@
+#header h1{
+  font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 138.5%;
+	line-height:110%;
+	padding-left: 1em;
+	padding-bottom:1px;
+	color:00add0;
+	margin:1px;
+}
+
+
+#header h2{
+	color:#333;
+	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	font-size: 197%;
+	line-height:100%;
+	margin:1px;
+}
+
+#header h3{
+	color:#999;
+	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 138%.5;
+	line-height: 180%;
+	padding-left: 2em;
+	margin:1px;
+}
+
+#menu{
+	padding-top: 2em;
+	padding-left: 2em;
+}
+
+#menu li{
+	color: #ccc;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 197%;
+	font-weight: bold;
+	letter-spacing: 1px;
+	line-height: 90%;
+	text-decoration:none;
+	list-style:none;
+	
+}
+
+#menu li:hover{
+	color:#454545;
+}
+
+table{
+	border-collapse: collapse;
+	vertical-align:top;
+	border-spacing:0;
+	display:table-cell;
+}	
