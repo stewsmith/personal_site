@@ -1,38 +1,49 @@
-#header h1{
-  font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size: 138.5%;
-	line-height:110%;
+#header h1 a{
+	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 88.5%;
+	line-height:60%;
 	padding-left: 1em;
 	padding-bottom:1px;
 	color:00add0;
 	margin:1px;
+	text-decoration:none;
 }
 
 
-#header h2{
+#header h2 a{
 	color:#333;
 	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: bold;
-	font-size: 197%;
-	line-height:100%;
+	font-size: 167%;
+	line-height:40%;
 	margin:1px;
+	text-decoration:none;
 }
 
-#header h3{
+#header h3 {
 	color:#999;
 	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 138%.5;
-	line-height: 180%;
+	line-height: 80%;
 	padding-left: 2em;
 	margin:1px;
+	text-decoration:none;
 }
 
 #menu{
 	padding-top: 2em;
 	padding-left: 2em;
+	list-style:none;
 }
 
-#menu li{
+ul{
+	list-style:none;
+}
+#about{
+
+	padding-left:8em;
+}
+#menu li a{
 	color: #ccc;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 197%;
@@ -41,11 +52,12 @@
 	line-height: 90%;
 	text-decoration:none;
 	list-style:none;
-	
+	text-align:right;	
 }
 
-#menu li:hover{
+#menu li a:hover{
 	color:#454545;
+	list-style:none;
 }
 
 table{
